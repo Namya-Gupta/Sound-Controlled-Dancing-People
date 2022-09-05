@@ -1,0 +1,48 @@
+
+<html>
+  <head>
+    <title>Sound Identification Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-13 header_div text-center">
+      <h1>Sound Controlled Dancing People</h1>
+      <h4>Play sounds like clap, snap, or say 'ting ting' to make the humans dance</h4>
+    </div>
+    <div class="main_div">
+      <center>
+        <br>
+        <button id="start" onclick="startClassification();"> START </button>
+        <h3 id="result_label">I can hear - </h3>
+        <h4 id="result_confidence">Accuracy - </h4>
+        <br>
+        <img src="tingting_pic.png" id="dance1" width="300" height="300">
+        <img src="clap_pic.png" id="dance2" width="300" height="300">
+        <img src="snap_pic.png" id="dance3" width="300" height="300">
+        <img src="backround_pic.png" id="dance4" width="300" height="300">
+      </center>
+      <br>
+      <br>
+      <br>
+    <div class="col-xs-13 header_div text-center">
+      <h4>Made By: Namya</h4>
+    </div>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
